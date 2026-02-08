@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Professional Learning Network</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">EduConnect</span>
+                </div>
+                <div class="search-bar">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Search courses, skills, or instructors...">
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="#network" class="nav-item">
+                    <span class="nav-icon">👥</span>
+                    <span class="nav-label">My Network</span>
+                </a>
+                <a href="#notifications" class="nav-item">
+                    <span class="nav-icon">🔔</span>
+                    <span class="nav-label">Notifications</span>
+                    <span class="notification-badge">3</span>
+                </a>
+                <a href="#courses" class="nav-item">
+                    <span class="nav-icon">📖</span>
+                    <span class="nav-label">Courses</span>
+                </a>
+                <a href="#jobs" class="nav-item">
+                    <span class="nav-icon">💼</span>
+                    <span class="nav-label">Job Alert</span>
+                </a>
+                <a href="#profile" class="nav-item profile-item">
+                    <div class="profile-photo"></div>
+                    <span class="nav-label">Me</span>
+                </a>
+                <button class="nav-item refresh-btn">
+                    <span class="nav-icon">🔄</span>
+                    <span class="nav-label">Refresh</span>
+                </button>
+                <button class="nav-item switch-account-btn">
+                    <span class="nav-icon">↔️</span>
+                    <span class="nav-label">Switch Account</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Main Container with Sidebar -->
+        <div class="main-container">
+            <!-- Left Sidebar -->
+            <aside class="left-sidebar">
+                <!-- Profile Card -->
+                <div class="sidebar-card profile-card">
+                    <div class="profile-cover"></div>
+                    <div class="profile-info">
+                        <div class="profile-avatar"></div>
+                        <h3 class="profile-name">John Anderson</h3>
+                        <p class="profile-bio">Computer Science Student | Aspiring Software Developer | Passionate about AI & Machine Learning</p>
+                    </div>
+                    <div class="profile-stats">
+                        <a href="#" class="stat-item">
+                            <span class="stat-label">My profile views</span>
+                            <span class="stat-value">245</span>
+                        </a>
+                        <a href="#" class="stat-item">
+                            <span class="stat-label">Job application</span>
+                            <span class="stat-value">12</span>
+                        </a>
+                        <a href="#" class="stat-item">
+                            <span class="stat-label">Recruitment interviewed</span>
+                            <span class="stat-value">5</span>
+                        </a>
+                        <a href="#" class="stat-item">
+                            <span class="stat-label">Saved favourite offers</span>
+                            <span class="stat-value">8</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Company Info Card -->
+                <div class="sidebar-card company-card">
+                    <h4 class="card-title">Company Info</h4>
+                    <div class="company-stats">
+                        <div class="company-item">
+                            <span class="company-label">Company info</span>
+                            <span class="company-value">TechCorp Solutions</span>
+                        </div>
+                        <div class="company-item">
+                            <span class="company-label">Page visitors today</span>
+                            <span class="company-value">1,234</span>
+                        </div>
+                        <div class="company-item">
+                            <span class="company-label">Applicants show interest</span>
+                            <span class="company-value">89</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Groups Card -->
+                <div class="sidebar-card groups-card">
+                    <h4 class="card-title">Professional Groups</h4>
+                    <div class="groups-list">
+                        <a href="#" class="group-item">Web Developers Community</a>
+                        <a href="#" class="group-item">AI & Machine Learning Enthusiasts</a>
+                        <a href="#" class="group-item">Career Development Hub</a>
+                        <a href="#" class="group-item">Software Engineering Best Practices</a>
+                    </div>
+                    <a href="#" class="create-group-btn">
+                        <span class="plus-icon">+</span>
+                        Create new group
+                    </a>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <div class="content-area">
+                <!-- Create Post Box -->
+                <div class="create-post-card">
+                    <div class="create-post-header">
+                        <div class="user-avatar"></div>
+                        <input type="text" class="post-input" placeholder="Start a post...">
+                    </div>
+                    <div class="create-post-actions">
+                        <button class="post-action-btn">
+                            <span class="action-icon">📷</span>
+                            <span>Photo</span>
+                        </button>
+                        <button class="post-action-btn">
+                            <span class="action-icon">🎥</span>
+                            <span>Video</span>
+                        </button>
+                        <button class="post-action-btn">
+                            <span class="action-icon">✍️</span>
+                            <span>Write article</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sort Filter -->
+                <div class="sort-filter">
+                    <span>Sort by: <strong>Top</strong></span>
+                </div>
+
+                <!-- Feed Posts -->
+                <div class="feed-container">
+                    <!-- Recommended Section -->
+                    <div class="recommended-section">
+                        <p class="recommended-label">Recommended for you</p>
+                        <div class="recommended-profiles">
+                            <div class="recommended-profile">
+                                <div class="rec-avatar"></div>
+                                <div class="rec-info">
+                                    <h4>Touhajleb Sidi Aly</h4>
+                                    <span class="connection-badge">• 3rd+</span>
+                                    <p>Entrepreneure | Directrice-Fondatrice chez ETOP SARL</p>
+                                </div>
+                                <button class="follow-btn">+ Follow</button>
+                            </div>
+                            <div class="recommended-profile">
+                                <div class="rec-avatar"></div>
+                                <div class="rec-info">
+                                    <h4>Nicky Verd</h4>
+                                    <span class="connection-badge">• 3rd+ Premium</span>
+                                    <p>Digital Futurist | AI Literacy | Keynote Speaker</p>
+                                </div>
+                                <button class="follow-btn">+ Follow</button>
+                            </div>
+                            <div class="recommended-profile">
+                                <div class="rec-avatar"></div>
+                                <div class="rec-info">
+                                    <h4>Francesco Galtieri</h4>
+                                    <span class="connection-badge">• 3rd+ Premium</span>
+                                    <p>UNFPA Representative</p>
+                                </div>
+                                <button class="follow-btn">+ Follow</button>
+                            </div>
+                        </div>
+                        <button class="show-more-btn">Show more</button>
+                    </div>
+
+                    <!-- Post 1 - Urgent Hiring -->
+                    <article class="post-card">
+                        <div class="post-header">
+                            <div class="post-avatar"></div>
+                            <div class="post-author-info">
+                                <div class="author-top">
+                                    <h4 class="author-name">TechCorp Solutions</h4>
+                                    <span class="verified-badge">✓</span>
+                                </div>
+                                <p class="post-meta">2,450 followers</p>
+                                <p class="post-time">2h ago</p>
+                            </div>
+                            <button class="follow-btn-small">+ Follow</button>
+                        </div>
+                        <span class="urgent-badge">🔴 URGENT HIRING!</span>
+                        <div class="post-content">
+                            <p class="post-text">We're looking for an experienced Full Stack Developer to join our growing team! Must have 3+ years of experience with React, Node.js, and cloud technologies. Excellent opportunity for career growth.</p>
+                            <div class="job-details">
+                                <span class="job-tag">💼 Full-time</span>
+                                <span class="job-tag">📍 Remote</span>
+                                <span class="job-tag">💰 $80K - $120K</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <div class="reactions">
+                                <span class="reaction-icons">👍❤️💡</span>
+                                <span>234</span>
+                            </div>
+                            <div class="engagement-stats">
+                                <span>45 comments · 12 reposts</span>
+                            </div>
+                        </div>
+                        <div class="post-actions">
+                            <button class="post-action">
+                                <span class="action-icon">👍</span>
+                                <span>Like</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">💬</span>
+                                <span>Comment</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">🔄</span>
+                                <span>Repost</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">📤</span>
+                                <span>Send</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 - Regular Post with Image -->
+                    <article class="post-card">
+                        <div class="post-header">
+                            <div class="post-avatar"></div>
+                            <div class="post-author-info">
+                                <div class="author-top">
+                                    <h4 class="author-name">Kassahun Adelo</h4>
+                                    <span class="verified-badge">✓</span>
+                                    <span class="connection-badge">• 3rd+</span>
+                                </div>
+                                <p class="post-meta">Program Manager | Coffee | Forests</p>
+                                <p class="post-time">4h • Edited</p>
+                            </div>
+                            <button class="follow-btn-small">+ Follow</button>
+                        </div>
+                        <div class="post-content">
+                            <p class="post-text">A fast-paced and pressured world.
+
+In many airports, boarding turns into a quiet race. Long before the boarding call, passengers crowd the gate, pushing forward with visible urgency. Everyone wants to be first, despite having assigned seats...
+                            <button class="see-more">...more</button></p>
+                            <div class="post-image"></div>
+                        </div>
+                        <div class="post-stats">
+                            <div class="reactions">
+                                <span class="reaction-icons">👍❤️💡</span>
+                                <span>26</span>
+                            </div>
+                            <div class="engagement-stats">
+                                <span>6 comments · 1 repost</span>
+                            </div>
+                        </div>
+                        <div class="post-actions">
+                            <button class="post-action">
+                                <span class="action-icon">👍</span>
+                                <span>Like</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">💬</span>
+                                <span>Comment</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">🔄</span>
+                                <span>Repost</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">📤</span>
+                                <span>Send</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Add People Section -->
+                    <div class="add-people-card">
+                        <h3>Want even more updates?</h3>
+                        <p>Add these people you may know to your network, and you'll see their updates in the feed.</p>
+                        <div class="people-suggestions">
+                            <div class="suggestion-item">
+                                <div class="suggestion-avatar"></div>
+                                <div class="suggestion-info">
+                                    <h4>Emily Klein</h4>
+                                    <p>Director, Strategic Engagements - HBS</p>
+                                    <span class="activity-tag">Recently active on the feed</span>
+                                </div>
+                                <button class="connect-btn">Connect</button>
+                            </div>
+                            <div class="suggestion-item">
+                                <div class="suggestion-avatar"></div>
+                                <div class="suggestion-info">
+                                    <h4>Ashley Sampson</h4>
+                                    <p>Associate Portfolio Director, HBS</p>
+                                </div>
+                                <button class="connect-btn">Connect</button>
+                            </div>
+                            <div class="suggestion-item">
+                                <div class="suggestion-avatar"></div>
+                                <div class="suggestion-info">
+                                    <h4>Meghan Bierenbroodspot</h4>
+                                    <p>Harvard Business School</p>
+                                    <span class="activity-tag">Recently active on the feed</span>
+                                </div>
+                                <button class="connect-btn">Connect</button>
+                            </div>
+                        </div>
+                        <button class="discover-btn">Discover more</button>
+                    </div>
+
+                    <!-- Post 3 - Urgent Hiring -->
+                    <article class="post-card">
+                        <div class="post-header">
+                            <div class="post-avatar"></div>
+                            <div class="post-author-info">
+                                <div class="author-top">
+                                    <h4 class="author-name">Global Tech Industries</h4>
+                                </div>
+                                <p class="post-meta">5,120 followers</p>
+                                <p class="post-time">6h ago</p>
+                            </div>
+                            <button class="follow-btn-small">+ Follow</button>
+                        </div>
+                        <span class="urgent-badge">🔴 URGENT HIRING!</span>
+                        <div class="post-content">
+                            <p class="post-text">Exciting opportunity for a Data Scientist passionate about AI and Machine Learning. Work on cutting-edge projects with a talented team. Required: Python, TensorFlow, and experience with large datasets.</p>
+                            <div class="job-details">
+                                <span class="job-tag">💼 Full-time</span>
+                                <span class="job-tag">📍 Hybrid</span>
+                                <span class="job-tag">💰 $90K - $140K</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <div class="reactions">
+                                <span class="reaction-icons">👍❤️</span>
+                                <span>189</span>
+                            </div>
+                            <div class="engagement-stats">
+                                <span>32 comments · 8 reposts</span>
+                            </div>
+                        </div>
+                        <div class="post-actions">
+                            <button class="post-action">
+                                <span class="action-icon">👍</span>
+                                <span>Like</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">💬</span>
+                                <span>Comment</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">🔄</span>
+                                <span>Repost</span>
+                            </button>
+                            <button class="post-action">
+                                <span class="action-icon">📤</span>
+                                <span>Send</span>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <aside class="right-sidebar">
+                <!-- Today's Puzzle -->
+                <div class="sidebar-card puzzle-card">
+                    <h4 class="card-title">Today's puzzle</h4>
+                    <div class="puzzle-content">
+                        <div class="puzzle-image"></div>
+                        <h5>Zip - a quick brain teaser</h5>
+                        <p>Solve in 60s or less!</p>
+                        <button class="puzzle-btn">Play now</button>
+                    </div>
+                </div>
+
+                <!-- Recommendations -->
+                <div class="sidebar-card recommendations-card">
+                    <h4 class="card-title">Add to your feed</h4>
+                    <div class="recommendation-list">
+                        <div class="recommendation-item">
+                            <div class="rec-small-avatar"></div>
+                            <div class="rec-small-info">
+                                <h5>Teachers Recruiter</h5>
+                                <p>Company • Staffing</p>
+                            </div>
+                            <button class="follow-small-btn">+ Follow</button>
+                        </div>
+                        <div class="recommendation-item">
+                            <div class="rec-small-avatar"></div>
+                            <div class="rec-small-info">
+                                <h5>Touhajleb Sidi Aly</h5>
+                                <p>Entrepreneure</p>
+                            </div>
+                            <button class="follow-small-btn">+ Follow</button>
+                        </div>
+                        <div class="recommendation-item">
+                            <div class="rec-small-avatar"></div>
+                            <div class="rec-small-info">
+                                <h5>Nicky Verd</h5>
+                                <p>Digital Futurist</p>
+                            </div>
+                            <button class="follow-small-btn">+ Follow</button>
+                        </div>
+                    </div>
+                    <a href="#" class="view-recommendations">View all recommendations →</a>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">EduConnect</span>
+                    </div>
+                    <p>Empowering learners worldwide with accessible, high-quality education.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>For Students</h4>
+                    <ul>
+                        <li><a href="#courses">Browse Courses</a></li>
+                        <li><a href="#paths">Learning Paths</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#resources">Free Resources</a></li>
+                        <li><a href="#community">Student Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>For Instructors</h4>
+                    <ul>
+                        <li><a href="#teach">Teach on EduConnect</a></li>
+                        <li><a href="#instructor-support">Instructor Support</a></li>
+                        <li><a href="#guidelines">Course Guidelines</a></li>
+                        <li><a href="#success">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#press">Press</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#cookies">Cookie Policy</a></li>
+                        <li><a href="#accessibility">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EduConnect Corporation. All rights reserved.</p>
+                <div class="footer-lang">
+                    <select>
+                        <option>English</option>
+                        <option>Español</option>
+                        <option>Français</option>
+                        <option>Deutsch</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
