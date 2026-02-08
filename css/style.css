@@ -163,6 +163,9 @@ header {
     height: 28px;
     border-radius: 50%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: url('../images/default-profile.svg');
+    background-size: cover;
+    background-position: center;
     margin-bottom: 2px;
     border: 2px solid #ffffff;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
@@ -243,6 +246,9 @@ main {
     height: 72px;
     border-radius: 50%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: url('../images/default-profile.svg');
+    background-size: cover;
+    background-position: center;
     margin: -36px auto 12px;
     border: 2px solid #ffffff;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
@@ -409,6 +415,9 @@ main {
     height: 48px;
     border-radius: 50%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: url('../images/default-profile.svg');
+    background-size: cover;
+    background-position: center;
     flex-shrink: 0;
 }
 
@@ -489,6 +498,9 @@ main {
     height: 48px;
     border-radius: 50%;
     background: linear-gradient(135deg, #0a66c2 0%, #004182 100%);
+    background-image: url('../images/profile-company.svg');
+    background-size: cover;
+    background-position: center;
     flex-shrink: 0;
 }
 
@@ -1015,6 +1027,9 @@ footer {
     height: 48px;
     border-radius: 50%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: url('../images/profile-user2.svg');
+    background-size: cover;
+    background-position: center;
     flex-shrink: 0;
 }
 
@@ -1244,6 +1259,9 @@ footer {
     height: 56px;
     border-radius: 50%;
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background-image: url('../images/profile-user3.svg');
+    background-size: cover;
+    background-position: center;
     flex-shrink: 0;
 }
 
@@ -1384,6 +1402,9 @@ footer {
     height: 40px;
     border-radius: 50%;
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    background-image: url('../images/profile-user4.svg');
+    background-size: cover;
+    background-position: center;
     flex-shrink: 0;
 }
 
